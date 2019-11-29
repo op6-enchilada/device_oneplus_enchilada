@@ -27,3 +27,6 @@ TARGET_KERNEL_CONFIG := enchilada_defconfig
 
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
+
+TARGET_OTA_ASSERT_DEVICE := OnePlus6
+
